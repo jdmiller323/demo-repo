@@ -27,6 +27,6 @@ jobs:
 
       - name: Run markdown lint
         run: |
-         apt install pylint
-         pip install flask
+         sudo apt-get install pylint
+         sudo pip install flask
          pylint TestApp/app/        
