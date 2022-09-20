@@ -24,10 +24,4 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
-
-      - name: Run markdown lint
-        run: |
-         apt install pylint
-         pip install flask
-         pylint TestApp/app/
-         
+        
